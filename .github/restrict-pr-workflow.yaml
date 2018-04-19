@@ -1,0 +1,7 @@
+closeComment: 'Incorrect base branch, please check with repository owner for proper PR workflow'
+passComment: 'Enjoy testing newfriends :^)'
+pr_workflow:
+  beta: .*
+  master: (beta)|([a-z][a-z]-hf-.*)
+  stage: master
+  prod: stage
